@@ -1,0 +1,12 @@
+npm init -y
+
+npm ls --depth=0
+
+npm outdated//para ver os pacotes desatualizados
+
+"express": "^4.17.1"; //"express": "^major.minor.patch";
+
+patch - atualizar 0 patch para uma nova versão significa correção de bugs
+
+quando temos o '^' significa que podemos atualizar a 'minor' e a 'patch'
+quando temos o '~' significa que podemos atualizar a 'patch'
